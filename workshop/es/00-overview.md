@@ -49,7 +49,7 @@ Antes de empezar, verifica:
 
 | # | Habilidad | Descripción |
 |---|-----------|-------------|
-| 1 | **Context Engineering** | Enseña a Copilot sobre tu código base con instrucciones, referencias y restricciones claras |
+| 1 | **Ingeniería de contexto** | Enseña a Copilot sobre tu código base con instrucciones, referencias y restricciones claras |
 | 2 | **Planificar Primero** | Diseña la arquitectura antes de la implementación |
 | 3 | **Implementación Agéntica** | Deja que Copilot realice trabajo de codificación en múltiples pasos con tu supervisión |
 | 4 | **Diseño Iterativo** | Usa Copilot para transformar visuales y refinar detalles de interacción |
@@ -79,7 +79,7 @@ Antes de empezar, verifica:
 
 | Parte | Título | Descripción |
 |-------|--------|-------------|
-| [**01**](01-setup.md) | Configuración y Context Engineering | Crea tu repositorio, prepara tu entorno y dale a Copilot el contexto adecuado |
+| [**01**](01-setup.md) | Configuración e ingeniería de contexto | Crea tu repositorio, prepara tu entorno y dale a Copilot el contexto adecuado |
 | [**02**](02-plan-and-scaffold.md) | Planificar y Estructurar | Diseña la API y la arquitectura de páginas antes de implementar |
 | [**03**](03-agent-mode.md) | Construir el Juego | Conecta la página de batalla y los gráficos de contribuciones con ayuda agéntica |
 | [**04**](04-design-vibes.md) | Diseño Visual Primero | Transforma la estructura base en una experiencia retro arcade |

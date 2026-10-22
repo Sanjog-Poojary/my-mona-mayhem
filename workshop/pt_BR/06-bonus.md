@@ -147,7 +147,7 @@ Você completou o workshop **Mona Mayhem: GitHub Battle**! Aqui está o que voc�
 
 | Habilidade | O Que Você Praticou |
 |------------|---------------------|
-| **Context Engineering** | Dar ao Copilot os arquivos, instruções e restrições corretas |
+| **Engenharia de contexto** | Dar ao Copilot os arquivos, instruções e restrições corretas |
 | **Planejamento** | Gerar e refinar planos de implementação antes de programar |
 | **Codificação Agêntica** | Delegar trabalho em múltiplos arquivos e múltiplas etapas ao Copilot |
 | **Iteração de Design** | Começar de uma direção visual e refinar até um resultado polido |

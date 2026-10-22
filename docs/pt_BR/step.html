@@ -32,11 +32,11 @@
                 <span class="header-title">Mona Mayhem Workshop</span>
             </a>
             <div class="header-nav">
-                <div class="track-toggle" role="tablist" aria-label="Workshop track toggle">
+                <div class="track-toggle" role="tablist" aria-label="Alternar trilha do workshop">
                     <button class="track-btn active" data-track="vscode" type="button">VS Code</button>
                     <button class="track-btn" data-track="cli" type="button">CLI</button>
                 </div>
-                <span class="track-indicator" id="trackIndicator">Trilha VS Code</span>
+                <span class="track-indicator" id="trackIndicator">Trilha do VS Code</span>
                 <div class="locale-picker" id="localePicker">
                     <button type="button" class="locale-toggle" aria-haspopup="listbox" aria-expanded="false" aria-label="Selecionar idioma">🌐</button>
                     <ul role="listbox" aria-label="Idioma">
@@ -123,7 +123,7 @@
             try {
                 return normalizeTrack(localStorage.getItem(TRACK_STORAGE_KEY));
             } catch (error) {
-                console.warn('Unable to read saved workshop track preference.', error);
+                console.warn('Não foi possível ler a preferência salva de trilha do workshop.', error);
                 return 'vscode';
             }
         }
@@ -132,7 +132,7 @@
             try {
                 localStorage.setItem(TRACK_STORAGE_KEY, track);
             } catch (error) {
-                console.warn('Unable to persist workshop track preference.', error);
+                console.warn('Não foi possível salvar a preferência de trilha do workshop.', error);
             }
         }
 
@@ -188,7 +188,7 @@
             });
 
             if (/<!--\s*track:(?:vscode|cli):(?:start|end)\s*-->/.test(filtered)) {
-                console.warn('Unmatched workshop track markers found in markdown content.');
+                console.warn('Foram encontrados marcadores de trilha sem correspondência no conteúdo Markdown.');
                 return filtered.replace(/<!--\s*track:(?:vscode|cli):(?:start|end)\s*-->/g, '');
             }
 
@@ -240,7 +240,7 @@
                     }
                 }
             } catch (error) {
-                console.warn('Unable to load saved checklist state.', error);
+                console.warn('Não foi possível carregar o estado salvo da checklist.', error);
                 savedStates = [];
             }
 
@@ -377,7 +377,7 @@
 
             const step = steps.find(s => s.id === stepId);
             if (!step) {
-                document.getElementById('markdownContent').innerHTML = '<p>Passo não encontrado.</p>';
+                document.getElementById('markdownContent').innerHTML = '<p>Etapa não encontrada.</p>';
                 return;
             }
 
@@ -413,7 +413,7 @@
                     <div class="markdown">
                         <h1>${step.title}</h1>
                         <p>Não foi possível carregar o conteúdo. Por favor, verifique o <a href="https://github.com/copilot-dev-days/mona-mayhem" target="_blank">repositório GitHub</a> diretamente.</p>
-                        <p style="color: var(--text-secondary); font-size: 0.875rem;">Error: ${err.message}</p>
+                        <p style="color: var(--text-secondary); font-size: 0.875rem;">Erro: ${err.message}</p>
                     </div>`;
             }
         }

@@ -8,8 +8,9 @@ Agora que o aplicativo funciona e está com boa aparência, é hora de polir. Es
 <!-- track:vscode:start -->
 ## Tarefa 1: Agente em Segundo Plano para Design Responsivo
 
-1. No painel de Chat, clique em **+** → **New background agent**.
-2. Digite este prompt:
+1. No painel de Chat, clique em **+** para abrir um novo chat.
+2. Na parte inferior da janela, altere **Local** para **Copilot CLI**.
+3. Digite este prompt:
 
    ```
    Add responsive CSS media queries: at 1024px switch comparison to single column,
@@ -33,12 +34,13 @@ Agora que o aplicativo funciona e está com boa aparência, é hora de polir. Es
    empty or invalid.
    ```
 
-3. Revise as alterações quando o agente terminar e clique em **Apply**.
+4. Revise as alterações quando o agente terminar e clique em **Apply**.
 
 ## Tarefa 3: Agente na Nuvem para Variações (Opcional)
 
-1. Clique em **+** → **New cloud agent**.
-2. Digite este prompt:
+1. No painel de Chat, clique em **+** para abrir um novo chat.
+2. Na parte inferior da janela, altere **Local** para **Cloud**.
+3. Digite este prompt:
 
    ```
    Create an alternative color theme for the battle page — keep the retro arcade
@@ -46,8 +48,8 @@ Agora que o aplicativo funciona e está com boa aparência, é hora de polir. Es
    Create it as a CSS custom property theme that could be toggled.
    ```
 
-3. Verifique as **sessões de agentes** para monitorar o progresso.
-4. Revise a variação de design no PR que o agente na nuvem cria.
+4. Verifique as **sessões de agentes** para monitorar o progresso.
+5. Revise a variação de design no PR que o agente na nuvem cria.
 
 ## Tarefa 4: Verifique Tudo
 <!-- track:vscode:end -->

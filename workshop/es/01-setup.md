@@ -1,5 +1,5 @@
 <!-- l10n-sync: source-file="workshop/01-setup.md" -->
-# Parte 1: Configuración y Context Engineering
+# Parte 1: Configuración e ingeniería de contexto
 
 ---
 
@@ -98,9 +98,9 @@ Usa la ruta de instalación que corresponda a tu máquina:
 > ✅ **Ahora tienes la vista previa de la aplicación en una terminal y Copilot CLI listo en otra.**
 <!-- track:cli:end -->
 
-## Sección 2: Context Engineering
+## Sección 2: Ingeniería de contexto
 
-Context Engineering es cómo enseñas a la IA sobre tu código base. Cuanto mejor sea el contexto, mejor será cada respuesta futura.
+La ingeniería de contexto consiste en enseñar a la IA cómo es tu código base. Cuanto mejor sea el contexto, mejor será cada respuesta futura.
 
 <!-- track:vscode:start -->
 ### Tarea 1: Genera Instrucciones del Workspace con /init
